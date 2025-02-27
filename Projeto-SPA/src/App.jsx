@@ -35,7 +35,6 @@ function App() {
       </aside>
 
       <Rodape imgi={Instagram} insta="@vieiraquezia08" imge={gmail} email="vieiraquezia24@gmail.com" texto="Responsável pelo desenvolvimento: Quezia Amaral Vieira" />
-    <Usuarios/>
 
 
     </>
