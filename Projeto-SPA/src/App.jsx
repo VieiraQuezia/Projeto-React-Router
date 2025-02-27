@@ -1,4 +1,4 @@
-import NavBar from './Components/NavBar';
+import NavBar from './Components/Navbar';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Pages/Home';
 import Quezia from './Pages/Quezia';
