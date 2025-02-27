@@ -1,19 +1,32 @@
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom'
 
-
-
-Function Navbar () {
-    return (
-         <nav>
+function NavBar() {
+    
+    return(
+    
+        
+        <nav>
             <ul>
-                <li> <Link to=""></Link></li>
-                <li> <Link to=""></Link></li>
-                <li> <Link to=""></Link></li>
-                <li> <Link to=""></Link></li>
-
+            <li>
+                <Link to='/' > </Link> 
+                </li>
+            <li>
+                <Link to='/Guilherme' > @guih.sdl </Link>
+                </li>
+            <li>
+                <Link to='/Leo' > @leomvic </Link>
+                </li>
+            <li>
+                <Link to='/Hayeska' > @carecaax </Link>
+                </li>
+            <li>
+                <Link to='/Quezia' > @vieiraquezia08 </Link>
+                </li>
             </ul>
-         </nav>
+        </nav>
+        
+
     )
 }
 
-export default Navbar
+export default NavBar
