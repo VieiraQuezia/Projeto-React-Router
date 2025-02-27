@@ -1,6 +1,6 @@
 import './header.css'
 
-import logo from "../assets/logo.png";
+import logo from "/logo.png";
 
 function cabecalho(){
     
@@ -8,7 +8,7 @@ function cabecalho(){
         <>
         <header>
             
-       <h1> DESAFIO 1 de PROPS - REACT</h1>
+       <h1>REACT ROUTER (SPA)</h1>
         <img src={logo} className="logo react" alt="React logo" />
        
     </header>
@@ -16,4 +16,4 @@ function cabecalho(){
     )
 }
 
-export default cabecalho
+export default cabecalho;
