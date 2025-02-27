@@ -1,8 +1,8 @@
-import NavBar from './components/navBar';
+import NavBar from './Components/Navbar';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/home';
 import Quezia from './pages/Quezia';
-import Leo from './pages/Leo';
+import Leo from './Pages/Leo';
 import Hayeska from './pages/Hayeska';
 import Gui from '.';
 
