@@ -1,10 +1,10 @@
 import NavBar from './Components/Navbar';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from './pages/home';
-import Quezia from './pages/Quezia';
+import Home from './Pages/Home';
+import Quezia from './Pages/Quezia';
 import Leo from './Pages/Leo';
-import Hayeska from './pages/Hayeska';
-import Gui from '.';
+import Hayeska from './Pages/Hayeska';
+import Gui from './Pages/Guilherme';
 
 function App() {
   return (
