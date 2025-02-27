@@ -7,6 +7,7 @@ function Leo() {
     <header className='blocoheader'>
     <img src={leonardo}/>
     <h1>Leonardo M. Vicente</h1> 
+    <p></p>
     </header>   
     </div>
     )
