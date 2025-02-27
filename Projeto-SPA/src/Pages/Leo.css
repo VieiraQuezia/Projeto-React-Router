@@ -1,0 +1,7 @@
+.blocoheader {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+}
+
