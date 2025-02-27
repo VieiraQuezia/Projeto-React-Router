@@ -1,16 +1,16 @@
-import './leo.css'
-import leonardo from '../../public/leonardo.png'
+import "./leo.css";
+import leonardo from "/leonardo.png";
 
 function Leo() {
-    return (
+  return (
     <div>
-    <header className='blocoheader'>
-    <img src={leonardo}/>
-    <h1>Leonardo M. Vicente</h1> 
-    <p></p>
-    </header>   
+      <header className="blocoheader">
+        <img src={leonardo} />
+        <h1>Leonardo M. Vicente</h1>
+        <p></p>
+      </header>
     </div>
-    )
+  );
 }
 
-export default Leo
+export default Leo;

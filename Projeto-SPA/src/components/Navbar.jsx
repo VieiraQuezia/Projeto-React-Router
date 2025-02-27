@@ -1,16 +1,13 @@
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 function NavBar() {
-    
-    return(
-    
-        
-        <nav>
-            <ul>
-            <li>
-                <Link to='/' > </Link> 
-                </li>
-            <li>
+  return (
+    <nav>
+      <ul>
+        <li>
+          <Link to="/"> </Link>
+        </li>
+        {/* <li>
                 <Link to='/Guilherme' > @guih.sdl </Link>
                 </li>
             <li>
@@ -21,12 +18,10 @@ function NavBar() {
                 </li>
             <li>
                 <Link to='/Quezia' > @vieiraquezia08 </Link>
-                </li>
-            </ul>
-        </nav>
-        
-
-    )
+                </li> */}
+      </ul>
+    </nav>
+  );
 }
 
-export default NavBar
+export default NavBar;
