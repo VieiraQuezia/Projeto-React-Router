@@ -1,15 +1,15 @@
-import guilherme from "./assets/guilherme.png";
-import hayeska from "./assets/hayeska.png";
-import leonardo from "./assets/leonardo.png";
-import quezia from "./assets/quezia.png";
+import guilherme from "/guilherme.png";
+import hayeska from "/hayeska.png";
+import leonardo from "/leonardo.png";
+import quezia from "/quezia.png";
 
-import Instagram from "./assets/instagram.png"
-import gmail from './assets/gmail.png'
+import Instagram from "/instagram.png"
+import gmail from '/gmail.png'
 
 
 
 import Usuarios from "./components/Usuarios.jsx";
-import Lado from "./components/lado";
+import Lado from "./components/lado.jsx";
 import Cabecalho from "./components/header.jsx";
 import Rodape from './components/Footer.jsx'
 
