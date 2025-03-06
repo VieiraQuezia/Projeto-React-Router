@@ -37,11 +37,22 @@
 }
 .image {
   font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+
   img{
-  width: 20%;
-  height: 20%;
-  border-radius: 100px;
-  margin-right: 5%; }
+  width: 40%;
+  height: 25%;
+  border: 2px solid;
+  border-radius: 110px;
+  margin-right: 5%;
+
+
+ }
+}
+
+.image img:hover{
+  transform: scale(1.1);
 }
 
 .bloco:hover {
