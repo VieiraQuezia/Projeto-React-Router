@@ -1,32 +1,43 @@
-import React from "react";
-import leonardo from '../../public/leonardo.png'
-import "./base.css";
+import { useState } from "react"
+
+import leonardo from "/leonardo.png"
+import './base.css'
 
 function Leo() {
+const [isLogado, setIsLogado] = useState(false);
+
+
   return (
-    <div className="container">
-      <div className="header">
+    <>
+    <article className="container">
+
+      <nav className="header">
         <img
           className="image"
           src={leonardo}
           alt="Profile"
         />
-        <div className="info">
-          <div className="name">Leonardo M. Vicente</div>
+        <nav className="info">
+
+          <div className="name">Leonardo Mori Vicente</div>
           <div className="username">@leomvic</div>
-          <div className="seguidores">
-            <div>
-              <span>118 </span>
-              Seguidores    
-            </div>
-            <div>
-              <span>76 </span>
-              Seguindo
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+          <nav className="seguidores">
+              <span>118 Seguidores</span>
+              <span>183 Seguindo</span>
+          </nav>
+    
+    <button onClick={ () => setIsLogado(!isLogado)}  className={isLogado ? 'seguindo' : 'seguir'} >  {isLogado ? "Seguindo" : "Seguir "} </button> 
+    
+
+        </nav>
+      </nav>
+
+    </article>
+    <h2 className="login">{isLogado ? "Obrigado por me Seguir" : ""}</h2> 
+
+    </>
+
   );
 }
 
