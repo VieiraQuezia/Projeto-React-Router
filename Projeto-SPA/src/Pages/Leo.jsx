@@ -16,11 +16,11 @@ function Leo() {
           <div className="username">@leomvic</div>
           <div className="seguidores">
             <div>
-              <span>5M </span>
+              <span>118 </span>
               Seguidores    
             </div>
             <div>
-              <span>15 </span>
+              <span>76 </span>
               Seguindo
             </div>
           </div>
