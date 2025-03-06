@@ -1,5 +1,5 @@
 import "./lado.css"
-
+import '../App.css'
 
 function Lado(props) {
   return (

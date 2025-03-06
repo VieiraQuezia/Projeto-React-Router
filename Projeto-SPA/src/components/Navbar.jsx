@@ -1,24 +1,24 @@
 import { Link } from "react-router-dom";
-
+import '../components/NavBar.css'
+import '../App.css'
 function NavBar() {
   return (
-    <nav>
+    <nav className="navbar">
+        <h2> SEGUE A GENTE!!</h2>
       <ul>
+        
         <li>
-          <Link to="/"> </Link>
-        </li>
-        {/* <li>
-                <Link to='/Guilherme' > @guih.sdl </Link>
+                <Link className="link" to='/Guilherme' > @guih.sdl </Link>
                 </li>
             <li>
-                <Link to='/Leo' > @leomvic </Link>
+                <Link className="link" to='/Leo' > @leomvic </Link>
                 </li>
             <li>
-                <Link to='/Hayeska' > @carecaax </Link>
+                <Link className="link" to='/Hayeska' > @carecaax </Link>
                 </li>
             <li>
-                <Link to='/Quezia' > @vieiraquezia08 </Link>
-                </li> */}
+                <Link className="link" to='/Quezia' > @vieiraquezia08 </Link>
+                </li>
       </ul>
     </nav>
   );
