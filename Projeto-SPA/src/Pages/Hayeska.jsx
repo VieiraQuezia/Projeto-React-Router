@@ -22,8 +22,10 @@ const [isLogado, setIsLogado] = useState(false);
           <div className="name">hayeska</div>
           <div className="username">@carecaax</div>
 
-          <p>I❤️U @vieiraquezia08</p>
-          <p>愛</p>
+          <p>I❤️U @vieiraquezia08 <br />
+          愛
+          </p>
+        
 
           <nav className="seguidores">
               <span>92 Seguidores</span>
