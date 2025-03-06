@@ -1,25 +1,41 @@
+import { useState } from "react";
+
 import Quezia from "/quezia.png";
-import React from "react";
 import "./base.css";
 
-function App() {
+function quezia() {
+  const [isLogado, setIsLogado] = useState(false);
+
   return (
-    <div className="container">
-      <div className="header">
-        <img className="image" src={Quezia} alt="Profile" />
-        <div className="info">
-          <div className="name">Seu Nome</div>
-          <div className="username">@seuusuario</div>
-          <div className="seguidores">
+    <>
+      <article className="container">
+        <nav className="header">
+          <img className="image" src={Quezia} alt="Profile" />
+          <nav className="info">
+            <div className="name">Quezia Amaral Vieira</div>
+            <div className="username">@vieiraquezia08</div>
+            <p>Your love set me free ❤️ <br/>
+            I❤️U @carecaax <br/>
+            16y</p>
+            
+            <nav className="seguidores">
+              <span>238 Seguidores</span>
+              <span>223 Seguindo</span>
+            </nav>
 
-          <p>238 Seguidores</p>
-          <p>223 Seguindo</p>
-
-          </div>
-        </div>
-      </div>
-    </div>
+            <button
+              onClick={() => setIsLogado(!isLogado)}
+              className={isLogado ? "seguindo" : "seguir"}
+            >
+              {" "}
+              {isLogado ? "Seguindo" : "Seguir "}{" "}
+            </button>
+          </nav>
+        </nav>
+      </article>
+      <h2 className="login">{isLogado ? "Obrigado por me Seguir" : ""}</h2>
+    </>
   );
 }
 
-export default App;
+export default quezia;
