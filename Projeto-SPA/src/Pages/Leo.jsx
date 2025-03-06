@@ -1,4 +1,4 @@
-import "./leo.css";
+import "./base.css";
 import leonardo from "/leonardo.png";
 
 function Leo() {
