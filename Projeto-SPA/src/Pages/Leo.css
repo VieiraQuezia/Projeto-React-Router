@@ -5,3 +5,59 @@
     color: black;
 }
 
+html {
+    font-size: 16px; /* Tamanho base da fonte, ajustável */
+    background-color: #242424;
+  }
+  
+  .container {
+    width: 50%; /* Substituído px por porcentagem */
+    height: 100%;
+    margin: 3% auto; /* Margem vertical em porcentagem */
+    padding: 1.5%; /* 20px em rem */
+    border: 1px solid black; /* Bordas fixas em rem */
+    border-radius: 10px; /* Bordas arredondadas fixas em rem */
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%; /* Margem inferior em porcentagem */
+    flex-wrap: wrap; /* Permite que os itens se ajustem quando a tela for menor */
+  }
+  
+  .image {
+    width: 20%; /* Largura da imagem em porcentagem */
+    height: auto; /* Manter a proporção da imagem */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5%; /* Margem à direita em porcentagem */
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 75%; /* Largura da info em porcentagem */
+  }
+  
+  .name {
+    font-size: 25px; /* 24px em rem */
+    font-weight: bold;
+  }
+  
+  .username {
+    font-size: 15px; /* 18px em rem */
+    color: #888;
+  }
+  
+  
+  
+  .seguidores {
+    display: flex;
+    margin-top: 2%; /* 20px em rem */
+  }
+  
