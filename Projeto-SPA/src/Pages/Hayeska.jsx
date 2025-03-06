@@ -1,49 +1,74 @@
-import { useState } from "react"
+import { useState } from "react";
+import logo from "../../public/logo.png";
+import Hayeska from "/hayeska.png";
 
-import Hayeska from "/hayeska.png"
-import './base.css'
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Lado from "../components/lado";
 
-function hayeska() {
-const [isLogado, setIsLogado] = useState(false);
+import Instagram from "/instagram.png";
+import gmail from "/gmail.png";
 
+import "./base.css";
+
+function guilherme() {
+  const [isLogado, setIsLogado] = useState(false);
 
   return (
     <>
-    <article className="container">
-
-      <nav className="header">
-        <img
-          className="image"
-          src={Hayeska}
-          alt="Profile"
-        />
-        <nav className="info">
-
-          <div className="name">hayeska</div>
-          <div className="username">@carecaax</div>
-
-          <p>I❤️U @vieiraquezia08 <br />
-          愛
-          </p>
-        
-
-          <nav className="seguidores">
-              <span>92 Seguidores</span>
-              <span>248 Seguindo</span>
-          </nav>
-    
-    <button onClick={ () => setIsLogado(!isLogado)}  className={isLogado ? 'seguindo' : 'seguir'} >  {isLogado ? "Seguindo" : "Seguir "} </button> 
-    
-
-        </nav>
+      <nav className="header_pagina">
+        <a
+          href="http://localhost:5173/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="logo" src={logo} alt="logo" />
+        </a>
       </nav>
+      <article className="meio">
+        <Navbar />
 
-    </article>
-    <h2 className="login">{isLogado ? "Obrigado por me Seguir" : ""}</h2> 
+        <article className="container">
+          <nav className="header">
+            <img className="image" src={Hayeska} alt="Profile" />
+            <nav className="info">
+              <div className="name">hayeska</div>
+              <div className="username">@carecaax</div>
 
+              <p>I❤️U @vieiraquezia08 <br />
+              愛
+              </p>
+
+
+
+              <nav className="seguidores">
+                <span>92 Seguidores</span>
+                <span>248 Seguindo</span>
+              </nav>
+
+              <button
+                onClick={() => setIsLogado(!isLogado)}
+                className={isLogado ? "seguindo" : "seguir"}
+              >
+                {" "}
+                {isLogado ? "Seguindo" : "Seguir "}{" "}
+              </button>
+            </nav>
+          </nav>
+          
+        </article>
+        <Lado val1="Perseverança" val2="Amizade" val3="Responsabilidade" />
+      </article>
+
+      <Footer
+        imgi={Instagram}
+        insta="@vieiraquezia08"
+        imge={gmail}
+        email="vieiraquezia24@gmail.com"
+        texto="Responsável pelo desenvolvimento: Quezia Amaral Vieira"
+      />
     </>
-
   );
 }
 
-export default hayeska;
+export default guilherme;
