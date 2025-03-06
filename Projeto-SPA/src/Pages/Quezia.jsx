@@ -11,14 +11,10 @@ function App() {
           <div className="name">Seu Nome</div>
           <div className="username">@seuusuario</div>
           <div className="seguidores">
-            <div>
-              <span>238</span>
-              Seguidores
-            </div>
-            <div>
-              <span>223</span>
-              Seguindo
-            </div>
+
+          <p>238 Seguidores</p>
+          <p>223 Seguindo</p>
+
           </div>
         </div>
       </div>
