@@ -13,7 +13,7 @@ function hayeska() {
           <div className="seguidores">
 
           <p>92 Seguidores</p>
-          <p>223 Seguindo</p>
+          <p>248 Seguindo</p>
 
           </div>
         </div>
