@@ -83,6 +83,7 @@ html {
         transition: border-color 0.25s;
         width: 20%;
         margin-top: 5%;
+        color: #fff;
       }
       button:hover {
         border-color: #646cff;

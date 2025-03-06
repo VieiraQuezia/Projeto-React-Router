@@ -17,7 +17,7 @@ function Leo() {
           <div className="seguidores">
             <div>
               <span>118 </span>
-              Seguidores    
+              Seguidores     
             </div>
             <div>
               <span>76 </span>
