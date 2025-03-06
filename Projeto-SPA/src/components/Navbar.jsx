@@ -8,6 +8,9 @@ function NavBar() {
       <ul>
         
         <li>
+                <Link className="link" to='/' > Home</Link>
+                </li>
+        <li>
                 <Link className="link" to='/Guilherme' > @guih.sdl </Link>
                 </li>
             <li>
