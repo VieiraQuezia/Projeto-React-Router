@@ -19,8 +19,7 @@ function Leo() {
       <nav className="header_pagina">
         <a
           href="http://localhost:5173/"
-          target="_blank"
-          rel="noopener noreferrer"
+          target="_self"
         >
           <img className="logo" src={logo} alt="logo" />
         </a>
