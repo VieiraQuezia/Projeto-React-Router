@@ -1,7 +1,6 @@
 .blocos {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row;
 }
 
 .bloco {
@@ -39,4 +38,13 @@
 
 .bloco:hover {
   opacity: 0.7;
+}
+
+
+
+
+.meio{
+ display: flex;
+ justify-content: space-around;
+ 
 }

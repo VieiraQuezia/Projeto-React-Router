@@ -1,14 +1,14 @@
 .aside {
     background-color:none;
-  width: 30%;
-  padding: 1%;
+ padding: 5%;
+ padding-bottom:20vw;
 
     border:  2px solid white;
+    border-radius: 10px;
 }
 
 aside{
 
-    display:flex ;
-    justify-content: space-around;
+  
     
 }
