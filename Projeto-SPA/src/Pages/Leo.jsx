@@ -1,5 +1,5 @@
 import React from "react";
-import leonardo from 'Projeto-React-Router/Projeto-SPA/public/leonardo.png'
+import leonardo from '../../public/leonardo.png'
 import "./base.css";
 
 function Leo() {
@@ -16,11 +16,11 @@ function Leo() {
           <div className="username">@leomvic</div>
           <div className="seguidores">
             <div>
-              <span>5M</span>
-              Seguidores
+              <span>5M </span>
+              Seguidores    
             </div>
             <div>
-              <span>15</span>
+              <span>15 </span>
               Seguindo
             </div>
           </div>
