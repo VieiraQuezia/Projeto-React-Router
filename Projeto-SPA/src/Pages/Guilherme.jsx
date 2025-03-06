@@ -1,6 +1,7 @@
 import { useState } from "react"
-
+import logo from '../../public/logo.png'
 import Guilherme from "/guilherme.png"
+
 import './base.css'
 
 function guilherme() {
@@ -9,6 +10,11 @@ const [isLogado, setIsLogado] = useState(false);
 
   return (
     <>
+    <nav className="header_pagina">
+    <a href="http://localhost:5173/" target="_blank" rel="noopener noreferrer">
+    <img className="logo" src={logo} alt="logo" />
+    </a>
+    </nav>
     <article className="container">
 
       <nav className="header">
