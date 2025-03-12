@@ -1,6 +1,6 @@
 import Lado from "../Components/lado.jsx";
 import Header from "../components/header.jsx";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer.jsx";
 import NavBar from "../components/Navbar.jsx";
 import Instagram from "/instagram.png";
 import gmail from "/gmail.png";
